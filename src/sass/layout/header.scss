@@ -1,4 +1,5 @@
 @use "../abstracts/colours" as *;
+@use "../abstracts/mixins" as *;
 
 header {
   padding: 0 2%;
@@ -18,4 +19,11 @@ nav {
   a.router-link-exact-active {
     color: $violetSphere;
   }
+}
+
+#separatorStripe {
+  @include gradient(to left, $rainbowList);
+  height: 30px;
+  opacity: 0.69;
+  width: 100%;
 }

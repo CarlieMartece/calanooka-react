@@ -1,0 +1,54 @@
+@use "../abstracts/colours" as *;
+
+#Chroma {
+  #spheres {
+    margin: 0 auto;
+    width: 101px;
+
+    ::first-line {
+      line-height: 39px;
+    }
+
+    li:hover {
+      opacity: 1;
+    }
+
+    #hew-espireth {
+      background-color: $lilacMain;
+      color: $darkMain;
+    }
+
+    #godshi-enpire {
+      ::first-line {
+        line-height: 42px;
+      }
+    }
+
+    #peblash-reck {
+      ::first-line {
+        line-height: 48px;
+      }
+    }
+  }
+
+  .sphere {
+    border: 2px solid black;
+    border-radius: 40px;
+    color: white;
+    display: block;
+    font-family: "Pragati Narrow", sans-serif;
+    height: 76px;
+    list-style-type: none;
+    margin: 8px;
+    opacity: 0.7;
+    padding: 2px;
+    text-align: center;
+    width: 76px;
+
+    h2 {
+      font-size: 1rem;
+      margin-top: 0;
+      text-align: center;
+    }
+  }
+}

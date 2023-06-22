@@ -22,9 +22,21 @@
   width: 100vw;
 }
 
-#separatorStripe {
-  @include gradient(to left, $rainbowList);
-  height: 30px;
-  opacity: 0.69;
-  width: 100%;
+main {
+  margin-bottom: 60px;
+  padding: 10px;
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
 }

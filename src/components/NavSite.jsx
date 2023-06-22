@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NavSite() {
   const siteArray = [
-    [0, "/css", "Chroma"],
+    [0, "/", "Chroma"],
     [1, "/dsv", "DarkStar Vale"],
   ];
 

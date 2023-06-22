@@ -16,6 +16,16 @@ nav a.router-link-exact-active {
   color: #c22edc;
 }
 
+#separatorStripe {
+  background: -webkit-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -moz-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -o-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  height: 30px;
+  opacity: 0.69;
+  width: 100%;
+}
+
 * {
   background: transparent;
   border: 0;
@@ -36,14 +46,20 @@ nav a.router-link-exact-active {
   width: 100vw;
 }
 
-#separatorStripe {
-  background: -webkit-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
-  background: -moz-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
-  background: -o-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
-  background: linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
-  height: 30px;
-  opacity: 0.69;
-  width: 100%;
+main {
+  margin-bottom: 60px;
+  padding: 10px;
+}
+main h1 {
+  font-size: 1.4em;
+}
+main h2 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  text-align: left;
+}
+main p {
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=main.css.map */
