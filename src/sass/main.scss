@@ -1,1 +1,30 @@
-@use "base";
+@use "abstracts/colours" as *;
+@use "abstracts/mixins" as *;
+@use "layout/header";
+
+* {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#App {
+  color: $darkMain;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100dvh;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+}
+
+#separatorStripe {
+  @include gradient(to left, $rainbowList);
+  height: 30px;
+  opacity: 0.69;
+  width: 100%;
+}

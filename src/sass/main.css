@@ -1,3 +1,21 @@
+header {
+  padding: 0 2%;
+}
+
+nav {
+  height: 30px;
+  padding: 10px 0;
+  width: 100%;
+}
+nav a {
+  color: #2c3e50;
+  font-weight: bold;
+  margin-right: 10px;
+}
+nav a.router-link-exact-active {
+  color: #c22edc;
+}
+
 * {
   background: transparent;
   border: 0;
@@ -6,6 +24,26 @@
   overflow: hidden;
   padding: 0;
   vertical-align: baseline;
+}
+
+#App {
+  color: #2c3e50;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100dvh;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+}
+
+#separatorStripe {
+  background: -webkit-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -moz-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: -o-linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  background: linear-gradient(to left, #fe0000, #fd8c00, #d2af00, #119f0b, #528ff9, #2b06a3, #c22edc);
+  height: 30px;
+  opacity: 0.69;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

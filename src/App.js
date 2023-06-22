@@ -1,10 +1,16 @@
-import "./sass/main.css"
+import "./sass/main.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import NavSite from "./components/NavSite";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Calanooka -React</h1>
+    <BrowserRouter>
+    <div id="App">
+      <NavSite />
     </div>
+    </BrowserRouter>
+    
   );
 }
 

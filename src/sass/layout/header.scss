@@ -1,0 +1,21 @@
+@use "../abstracts/colours" as *;
+
+header {
+  padding: 0 2%;
+}
+
+nav {
+  height: 30px;
+  padding: 10px 0;
+  width: 100%;
+
+  a {
+    color: $darkMain;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  a.router-link-exact-active {
+    color: $violetSphere;
+  }
+}
