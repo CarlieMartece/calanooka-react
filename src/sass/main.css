@@ -36,6 +36,7 @@ nav a.router-link-exact-active {
 }
 
 #App {
+  background-color: #f8f1e6;
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   height: 100dvh;
