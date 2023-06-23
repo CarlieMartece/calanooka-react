@@ -9,7 +9,7 @@ export default function ChromaSphere() {
       <h1>{sphere.name}</h1>
       <span className="subtitle">({sphere.anagram})</span>
       <h2>Diameter: </h2>
-      <span className="subtitle">{sphere.diameter}</span>
+      <span className="subtitle">{sphere.diameter} km (approx)</span>
       <h2>Colour: </h2>
       <span className="subtitle">{sphere.colour}</span>
       <h2>Citizens: </h2>
