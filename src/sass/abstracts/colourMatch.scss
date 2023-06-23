@@ -1,0 +1,51 @@
+@use "./colours" as *;
+
+#snuffle, #estella, .evol-espireth {
+  color: $violetSphere;
+}
+#serena, #cal, .godshi-enpire {
+  color: $indigoSphere;
+}
+#nooka, #leandra, #ash, .bure-eshpel {
+  color: $blueSphere;
+}
+#baby-zero, #clairey, #katie, #charles, #fuchsia, #anxia-terra, #morgana, .geren-eshper {
+  color: $greenSphere;
+}
+#reckmund, #lolita-honey, .pyro-eshwelle {
+  color: $yellowSphere;
+}
+#rose, #katherine, #honeysuckle, #jane, #kathy, #ava, #tara, .opree-shengra {
+  color: $orangeSphere;
+}
+#loretta-alice, #alicia, .pred-heres {
+  color: $redSphere;
+}
+#clarence, #letitia, .peblash-reck {
+  color: $greyMain;
+}
+
+#evol-espireth {
+  background-color: $violetSphere;
+}
+#godshi-enpire {
+  background-color: $indigoSphere;
+}
+#bure-eshpel {
+  background-color: $blueSphere;
+}
+#geren-eshper {
+  background-color: $greenSphere;
+}
+#pyro-eshwelle {
+  background-color: $yellowSphere;
+}
+#opree-shengra {
+  background-color: $orangeSphere;
+}
+#pred-heres {
+  background-color: $redSphere;
+}
+#peblash-reck {
+  background-color: $greyMain;
+}

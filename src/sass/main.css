@@ -1,3 +1,67 @@
+#snuffle, #estella, .evol-espireth {
+  color: #c22edc;
+}
+
+#serena, #cal, .godshi-enpire {
+  color: #2b06a3;
+}
+
+#nooka, #leandra, #ash, .bure-eshpel {
+  color: #528ff9;
+}
+
+#baby-zero, #clairey, #katie, #charles, #fuchsia, #anxia-terra, #morgana, .geren-eshper {
+  color: #119f0b;
+}
+
+#reckmund, #lolita-honey, .pyro-eshwelle {
+  color: #d2af00;
+}
+
+#rose, #katherine, #honeysuckle, #jane, #kathy, #ava, #tara, .opree-shengra {
+  color: #fd8c00;
+}
+
+#loretta-alice, #alicia, .pred-heres {
+  color: #fe0000;
+}
+
+#clarence, #letitia, .peblash-reck {
+  color: #464343;
+}
+
+#evol-espireth {
+  background-color: #c22edc;
+}
+
+#godshi-enpire {
+  background-color: #2b06a3;
+}
+
+#bure-eshpel {
+  background-color: #528ff9;
+}
+
+#geren-eshper {
+  background-color: #119f0b;
+}
+
+#pyro-eshwelle {
+  background-color: #d2af00;
+}
+
+#opree-shengra {
+  background-color: #fd8c00;
+}
+
+#pred-heres {
+  background-color: #fe0000;
+}
+
+#peblash-reck {
+  background-color: #464343;
+}
+
 header {
   padding: 1% 2% 0;
 }
@@ -25,6 +89,51 @@ nav a.router-link-exact-active {
   width: 100%;
 }
 
+#Chroma #spheres {
+  margin: 10px auto;
+  width: 101px;
+}
+#Chroma #spheres ::first-line {
+  line-height: 39px;
+}
+#Chroma #spheres li:hover {
+  opacity: 1;
+}
+#Chroma #spheres #hew-espireth {
+  background-color: #f8eeff;
+}
+#Chroma #spheres #hew-espireth h2 {
+  color: #2c3e50;
+}
+#Chroma #spheres #godshi-enpire ::first-line {
+  line-height: 42px;
+}
+#Chroma #spheres #peblash-reck ::first-line {
+  line-height: 48px;
+}
+#Chroma .sphere {
+  border: 2px solid black;
+  border-radius: 40px;
+  display: block;
+  font-family: "Pragati Narrow", sans-serif;
+  height: 76px;
+  list-style-type: none;
+  margin: 8px;
+  opacity: 0.7;
+  padding: 2px;
+  text-align: center;
+  width: 76px;
+}
+#Chroma .sphere a {
+  text-decoration: none;
+}
+#Chroma .sphere h2 {
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  text-align: center;
+}
+
 * {
   background: transparent;
   border: 0;
@@ -47,7 +156,6 @@ nav a.router-link-exact-active {
 }
 
 main {
-  margin-bottom: 60px;
   padding: 10px;
 }
 main h1 {

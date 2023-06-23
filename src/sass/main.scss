@@ -1,6 +1,8 @@
 @use "abstracts/colours" as *;
 @use "abstracts/mixins" as *;
+@use "abstracts/colourMatch";
 @use "layout/header";
+@use "pages/chroma";
 
 * {
   background: transparent;
@@ -24,7 +26,6 @@
 }
 
 main {
-  margin-bottom: 60px;
   padding: 10px;
 
   h1 {

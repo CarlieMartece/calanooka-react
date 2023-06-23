@@ -2,7 +2,7 @@
 
 #Chroma {
   #spheres {
-    margin: 0 auto;
+    margin: 10px auto;
     width: 101px;
 
     ::first-line {
@@ -15,7 +15,9 @@
 
     #hew-espireth {
       background-color: $lilacMain;
-      color: $darkMain;
+      h2 {
+        color: $darkMain;
+      }
     }
 
     #godshi-enpire {
@@ -34,7 +36,6 @@
   .sphere {
     border: 2px solid black;
     border-radius: 40px;
-    color: white;
     display: block;
     font-family: "Pragati Narrow", sans-serif;
     height: 76px;
@@ -45,7 +46,12 @@
     text-align: center;
     width: 76px;
 
+    a {
+      text-decoration: none;
+    }
+
     h2 {
+      color: white;
       font-size: 1rem;
       margin-top: 0;
       text-align: center;

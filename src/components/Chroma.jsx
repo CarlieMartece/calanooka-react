@@ -9,7 +9,7 @@ export default function Chroma() {
         <h1>Chroma Sphere System</h1>
         <ul id="spheres">
           {data.chroma.map((sphere) => {
-            return <SphereCard key={sphere.id} name={sphere.name} />;
+            return <SphereCard key={sphere.id} id={sphere.id} name={sphere.name} />;
           })}
         </ul>
       </div>
