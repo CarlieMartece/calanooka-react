@@ -155,6 +155,10 @@ nav a.router-link-exact-active {
   width: 100vw;
 }
 
+.description li {
+  margin-bottom: 14px;
+}
+
 main {
   padding: 10px;
 }
