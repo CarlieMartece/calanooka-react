@@ -6,7 +6,7 @@ export default function Chroma() {
   return (
     <main>
       <div id="Chroma">
-        <h2>Chroma Sphere System</h2>
+        <h1>Chroma Sphere System</h1>
         <ul id="spheres">
           {data.chroma.map((sphere) => {
             return <SphereCard key={sphere.id} name={sphere.name} />;

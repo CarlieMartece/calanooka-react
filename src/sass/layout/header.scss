@@ -2,12 +2,11 @@
 @use "../abstracts/mixins" as *;
 
 header {
-  padding: 0 2%;
+  padding: 1% 2% 0;
 }
 
 nav {
   height: 30px;
-  padding: 10px 0;
   width: 100%;
 
   a {
