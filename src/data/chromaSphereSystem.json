@@ -30,26 +30,41 @@
             "colour": "Indigo, blue black",
             "citizens": "Godish",
             "traits": "Inventive, academic, humble",
-            "weapons": "Excellent telekinesis, giant robots",
+            "weapons": "Excellent teleskills, giant robots",
             "description": ["Godshi Enpire is the second sphere in the Chroman orbit. Its terrain of mountains and lakes is most similar to Evol Espireth, but with clearer, peaceful skies. As with Hew Espireth, underground space is often utilised, mostly for vast subterrenean fields of portal doors.", "The Godish culture is focussed around science and creating machines that surpass the abilities of the Chroman mind. They build simple homes using 'nesis and machinery. Their indigo food is farmed by robots, as most Godish work in laboratories or libraries. These quiet, studious Chromans rarely leave their sphere, and prefer electronic communication to receiving guests. Their main visitors are mindscape researchers.", "Mindscape research positions are open to any Chroman who passes the online tests. Researchers are allocated a portal door upon arrival, which they step through, merging with a newborn consciousness in a parallel universe and creating another mindscape in the mindfields. Upon mission completion, the researcher's door reactivates and they return to Godshi Enpire where their memories are added to the electronic library. Researchers usually return physically altered to resemble the distant lifeform they merged with. Some return to Chroman life, or undertake further research missions. Many are so consumed with a distant world's idea of what happens at mission end, the Godish walk them straight into delusion cells and ship them to Hew Espireth. Others return having committed heinous crimes in their parallel life and are sent to Pred Heres.", "Godshi was the primary target during the Second Fall, where the Reckish stole portal technology to create CRIBs. The following four hundred years brought a re-build and major advances in portal technology, prompting the Reckish to attack again.", "The last ruler of Godshi Enpire was Isiah, voted into leadership seven years before the GWAKZ war. This war began with Reckish stealing more Godish research before destroying many portal doors. Researchers were stranded on collapsing mindscapes upon mission completion until the intervention of Bure Eshpel spaceships. Surviving Godish are still working hard to rebuild the portal doors and again advance their technology beyond Reckish capabilities."]
         },
         {
             "id": "4",
             "name": "Bure Eshpel",
             "anagram": "Blue Sphere",
-            "citizens": "Beshpers"
+            "diameter": 15000,
+            "colour": "Blue",
+            "citizens": "Beshpers",
+            "traits": "Adventurous, brave, honest",
+            "weapons": "Good telepathy and telekinesis. Gunships and axes.",
+            "description": ["Bure Eshpel, sometimes called Beshpel, is an oceanic sphere dotted with rocky, blue islands. It is the third sphere from Hew Espireth. Beshpers reside on sprawling cities that cover the larger islands, or on ships. Some say it was their jealousy over Evollish and Godish teleportation ability that made Beshpers incredible transport engineers. They make residential ocean ships the size of cities, submarines for underwater exploration, airships for navigating the icy poles, and spaceships. Beshper technology enables travel between Chroman spheres for Chromans who cannot teleport. During the GWAKZ war, they made space vessels capable of traversing the mindfields to rescue researchers stranded due to broken portal doors.", "Beshpers are loud people, occasionally brash but always honest. Free-thinking Beshper cities attract artists, writers and musicians from across Chroma.", "The last ruler of Bure Eshpel was Kalanooka, who took power immediately after a Reckish spy killed her father at the start of the GWAKZ war. This blue warrior princess had a military flair that made Bure Esphel the least damaged sphere except Hew Espireth under the Reckish onslaught. It was her idea to use Beshper ships to collect frags from the mindfields to aid the Chroman army. The Chroman war ended when Kalanooka sacrificed herself to save Chroma."]
         },
         {
             "id": "5",
             "name": "Geren Eshper",
             "anagram": "Green Sphere",
-            "citizens": "Renish"
+            "diameter": 19000,
+            "colour": "Green, khaki",
+            "citizens": "Renish",
+            "traits": "Peaceful, compassionate, healers",
+            "weapons": "Excellent telepathy, moderate telekinesis, lifelight forcefields",
+            "description": ["The forest-covered sphere of Geren Eshper is fourth in orbit from Hew Espireth. It has the largest variety of plant life, and its three large inland seas are home to unique animal species.", "Renish citizens live primitive lives compared to other Chromans. They live in balance with their sphere's ecosystem and have little machinery.Many mindscape researchers who fragment into animal form choose to reside on Geren Eshper after mission completion, because the Renish are renowned for their respect for animal life. Despite the distance from Hew Espireth, the Renish are adept at channelling lifelight and make great healers, hence Geren Eshper having best hospitals on Chroma. This sphere also has the cleanest atmosphere due to the abundance of plant life, and export oxygen-rich air to rich residents on other spheres using Beshper delivery ships.", "The last ruler of Geren Espher was Amimia. She was elected to power in GE1976 and led the Renish in adding lifelight force-fields to Beshper warships. Her feud with Kalanooka almost tore apart the GWAKZ alliance but she remained faithful to the fight against Peblash Reck until the end."]
         },
         {
             "id": "6",
             "name": "Pyro Eshwelle",
             "anagram": "Yellow Sphere",
-            "citizens": "Pyrish"
+            "diameter": 11000,
+            "colour": "Yellow, gold",
+            "citizens": "Pyrish",
+            "traits": "Wilful, loud, ambitious. ",
+            "weapons": "Good telepathy, moderate telekinesis, guns, bombs.",
+            "description": ["Pyro Eshwelle, often known as Pyro, is the fifth sphere from Hew Espireth. The natural chemicals in its outer atmosphere amplify Hew Espireth's distant glow, making Pyro the second brightest sphere. The lower atmosphere is riddled with Chroman-made chemicals due to Pyro's huge consumer culture, making the air barely breathable. Specialist breathing equipment is needed when venturing outdoors. The landscape is a combination of desert and ocean.", "The Pyrish mostly work in military, media or manufacturing. These industrious people have covered most solid ground with solar panels, factories and massive cities. Using Beshper freight ships, they export goods and surplus energy to other Chroman spheres and import robots from Godshi Enpire, oxygen-rich air and medicine from Geren Eshper, and weapons from Pred Heres. There is much infighting between Pyrish lands. Those lucky enough to live in peaceful zones often devote their lives to entertainment, and Pyro-made shows are watched throughout Chroma.", "The last ruler of Pyro Eshwelle was Zimsela. She ruled from GE1974 following the tragic death of her parents and was still a child when the Chroman war began. She made the controversial move of installing cameras on the mindscapes. These were initially designed for security purposes, to keep watch for Reckish mindfield invasions, but some footage was later edited into pornography or dramatic documentaries that more socially-conscious Chromans believe to be a violation of mindscaper privacy."]
         },
         {
             "id": "7",
