@@ -1,5 +1,5 @@
 import data from "../data/chromaSphereSystem.json";
-import SphereCard from "./SphereCard";
+import ChromaSphereCard from "./ChromaSphereCard";
 
 export default function Chroma() {
   return (
@@ -8,7 +8,7 @@ export default function Chroma() {
         <h1>Chroma Sphere System</h1>
         <ul id="spheres">
           {data.chroma.map((sphere) => {
-            return <SphereCard key={sphere.id} id={sphere.id} name={sphere.name} />;
+            return <ChromaSphereCard key={sphere.id} id={sphere.id} name={sphere.name} />;
           })}
         </ul>
       </div>
