@@ -70,19 +70,34 @@
             "id": "7",
             "name": "Opree Shengra",
             "anagram": "Orange Sphere",
-            "citizens": "Oprian/Oprish"
+            "diameter": 17000,
+            "colour": "Orange, peach, brown",
+            "citizens": "Oprian/Oprish",
+            "traits": "Hedonistic, charming, welcoming",
+            "weapons": "Telepathy, daggers, poison",
+            "description": ["Opree Shengra is the sixth sphere from Hew Espireth, covered in desert laced with underground rivers. Citizens are Oprian (or Oprish in Renish or Beshper dialects) and reside near accessible water sources in beautiful stone cities with ornate temples. Due to Oprish hospitable nature, Opree Shengra is the sphere most visited for tourism purposes. Of all Chromans, the Oprish are also most likely to undertake mindscape research missions.", "The last ruler of Opree Shengra was Dakshin, who was the second Chroman ruler to defect to Recka's influence. Recka, Eve and Dakshin formed the RED alliance, leading the most recent attempted Reckish takeover. They were opposed by the GWAKZ alliance who fought to drive back the deadlight. "]
         },
         {
             "id": "8",
             "name": "Pred Heres",
             "anagram": "Red Sphere",
-            "citizens": "Predian"
+            "diameter": 9000,
+            "colour": "Red, dark pink",
+            "citizens": "Predian",
+            "traits": "Aggressive, competitive, impulsive",
+            "weapons": "Physical strength, guns, knives",
+            "description": ["Pred Heres was the furthest sphere from Hew Espireth until the arrival of Peblash Reck before the First Fall. This scarlet sphere is a gigantic battle arena. The polluted seas, scorched earth and crowded skies are divided into combat zones for violently competitive sport. Chroman criminals are sent as cannon fodder as punishment for their crimes, as are mindscapers who escape the clutches of Peblash Reck despite committing evil in their parallel life.", "Citizens are trained in combat from childhood. Their life purpose is to gain status by placing high in battle league tables. Due to their bloodthirsty nature, relationships with other Chroman spheres are often strained. Many Chromans blame the Predians for the arrival of Peblash Reck, believing they created it as a weapon with which to destroy the rest of Chroma.", "The last ruler of Pred Heres was a vicious warrior queen called Eve. She betrayed Chroma by joining Recka's side at the beginning of the GWAKZ war. Since the RED alliance's defeat by Kalanooka ended the Chroman war, the Predators have happily returned to fighting amongst themselves."]
         },
         {
             "id": "9",
             "name": "Peblash Reck",
             "anagram": "Black Sphere",
-            "citizens": "Reckish"
+            "diameter": 23000,
+            "colour": "Grey",
+            "citizens": "Reckish",
+            "traits": "Evil, creepy, demonic",
+            "weapons": "Deadlight manipulation, telepathy, teeth and talons",
+            "description": ["Peblash Reck began as a black sphere but got bleached grey by the deadlight. Its deadlight core lies surrounded by molten red then solid grey rock. Little grows on the dead surface, and most inhabitants live underground.", "Reckish demons reside alongside doomed former mindscapers. Using stolen Godish technology, the demons created Chambers of Reckish Intergalactic Botherment in order to infect the Mindfields. Mindscapers who succumb to Reckish influence are dragged to Peblash Reck when their parallel life ends unless they get rescued from their collapsing mindscapes by the Beshpers. Once in Peblash Reck they are beyond rescue, and are tormented until they die or transform into Reckish demons.", "The last ruler of Peblash Reck was Recka, previously known as Reea while she ruled Evol Espireth. The Reckish convinced her she could represent the Reck as their leader while maintaining a civil relationship with the rest of Chroma. For three years she attended board meetings with Giyakai, Wandasee, Isiah, Kalanooka, Amimia, Zimsela, Dakshin and Eve. As the Reck's representative, she attempted to bring balance between the lifelight and the deadlight and make the Reck a legitimate part of Chroma. This ended with a brutal attack against Godshi Enpire to steal the latest Godish technology."]
         }        
     ]
 }
