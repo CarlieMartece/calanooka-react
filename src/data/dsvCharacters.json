@@ -379,7 +379,7 @@
         },
         {
             "id": 30,
-            "name": "Lexo",
+            "name": "Lexo-Woodman",
             "firstBook": 1,
             "firstChapter": 100,
             "pronouns": "He/him",
@@ -392,7 +392,7 @@
         },
         {
             "id": 31,
-            "name": "Braxa",
+            "name": "Braxa-Velin",
             "firstBook": 1,
             "firstChapter": 100,
             "pronouns": "He/him",
@@ -418,7 +418,7 @@
         },
         {
             "id": 33,
-            "name": "Wonkali",
+            "name": "Wonkali-Rivers",
             "firstBook": 1,
             "firstChapter": 100,
             "pronouns": "He/him",
@@ -431,7 +431,7 @@
         },
         {
             "id": 34,
-            "name": "Patch Worthy",
+            "name": "Patch Cutford",
             "firstBook": 1,
             "firstChapter": 100,
             "pronouns": "She/her",
