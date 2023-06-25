@@ -14,6 +14,19 @@
             "dies": false
         },
         {
+            "id": 21,
+            "name": "Proctra Storo",
+            "firstBook": 1,
+            "firstChapter": 9,
+            "pronouns": "She/her",
+            "birthYear": "GE2272",
+            "presentColour": "Evollish purple",
+            "address": "Sylvester's Convenience Store, 6 Amimia Square, DarkStar Vale",
+            "family": "Sylvester Storo (father), Lucia Storo (mother)",
+            "bio": "Stunning bisexual witch. With aspirations of Evollish power since childhood, she enjoys the opportunities of Ray's Temple Coven. Loves using deadlight to control people, and telepathy to freak them out.",
+            "dies": false
+        },
+        {
             "id": 2,
             "name": "Ratshit Ruddy",
             "firstBook": 1,
@@ -93,7 +106,7 @@
         },
         {
             "id": 8,
-            "name": "Ray/Raya",
+            "name": "Ray(a)",
             "firstBook": 1,
             "firstChapter": 3,
             "pronouns": "He/him, they/them or she/her",
@@ -259,19 +272,6 @@
             "family": "Lucia Storo (wife), Proctra Storo (daughter)",
             "bio": "Successful businessman and council member corrupted by capitalist ambition and Mr Hampton's influence. Mistrusts young people, the unemployed and anyone not sober. Fun at parties.",
             "dies": true
-        },
-        {
-            "id": 21,
-            "name": "Proctra Storo",
-            "firstBook": 1,
-            "firstChapter": 9,
-            "pronouns": "She/her",
-            "birthYear": "GE2272",
-            "presentColour": "Evollish purple",
-            "address": "Sylvester's Convenience Store, 6 Amimia Square, DarkStar Vale",
-            "family": "Sylvester Storo (father), Lucia Storo (mother)",
-            "bio": "Stunning bisexual witch. With aspirations of Evollish power since childhood, she enjoys the opportunities of Ray's Temple Coven. Loves using deadlight to control people, and telepathy to freak them out.",
-            "dies": false
         },
         {
             "id": 22,
