@@ -4,9 +4,9 @@ import DSVCharacterCard from "./DSVCharacterCard";
 export default function DarkStarVale() {
   return (
     <main>
-      <div id="dark-star-vale">
+      <div id="DarkStarVale">
         <h1>DarkStar Vale</h1>
-        <ul>
+        <ul id ="dsv-cast">
           {data.dsv.map((character) => {
             return (
               <DSVCharacterCard key={character.id} id={character.id} name={character.name} />

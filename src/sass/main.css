@@ -134,6 +134,32 @@ nav a.router-link-exact-active {
   text-align: center;
 }
 
+#DarkStarVale #dsv-cast {
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+#DarkStarVale .character {
+  border: 1px solid #2c3e50;
+  border-radius: 3px;
+  margin: 10px;
+}
+#DarkStarVale .character a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+#DarkStarVale .character a:visited {
+  color: #c22edc;
+}
+#DarkStarVale .character p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 * {
   background: transparent;
   border: 0;

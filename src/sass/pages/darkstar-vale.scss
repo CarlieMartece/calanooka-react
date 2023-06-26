@@ -1,0 +1,33 @@
+@use "../abstracts/colours" as *;
+
+#DarkStarVale {
+  #dsv-cast {
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .character {
+    border: 1px solid $darkMain;
+    border-radius: 3px;
+    margin: 10px;
+
+    a {
+      color: $darkMain;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: $violetSphere;
+    }
+
+    p {
+      font-weight: bold;
+        margin-bottom: 5px;
+      text-align: center;
+    }
+  }
+}

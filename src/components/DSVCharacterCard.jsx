@@ -6,13 +6,13 @@ export default function DSVCharacterCard({ id, name }) {
   const imgSrc = require(`../images/preview/gc1-${imgName}.jpg`);
 
   return (
-    <li>
+    <li className="character">
       <Link to={link}>
         <img 
           alt={name}
           src={imgSrc}
         />
-        <h2>{name}</h2>
+        <p>{name}</p>
       </Link>
     </li>
   );
