@@ -26,26 +26,43 @@
   width: 100vw;
 }
 
-.description {
-  li {
-    margin-bottom: 14px;
-  }
-}
-
 main {
   padding: 10px;
+
+  .description {
+    li {
+      margin-bottom: 14px;
+    }
+  }
+
+  figure {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
 
   h1 {
     font-size: 1.4em;
   }
 
   h2 {
+    display: inline;
     font-size: 1.2em;
     margin-top: 10px;
     text-align: left;
   }
 
+  img {
+    border-radius: 3px;
+    max-width: 500px;
+    width: 100%;
+  }
+
   p {
     font-size: 0.8em;
+  }
+
+  .subtitle {
+    display: block;
   }
 }

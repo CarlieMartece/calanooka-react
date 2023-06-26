@@ -181,23 +181,36 @@ nav a.router-link-exact-active {
   width: 100vw;
 }
 
-.description li {
-  margin-bottom: 14px;
-}
-
 main {
   padding: 10px;
+}
+main .description li {
+  margin-bottom: 14px;
+}
+main figure {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 main h1 {
   font-size: 1.4em;
 }
 main h2 {
+  display: inline;
   font-size: 1.2em;
   margin-top: 10px;
   text-align: left;
 }
+main img {
+  border-radius: 3px;
+  max-width: 500px;
+  width: 100%;
+}
 main p {
   font-size: 0.8em;
+}
+main .subtitle {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
