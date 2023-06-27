@@ -1,60 +1,73 @@
 @use "../abstracts/colours" as *;
 
-#Chroma {
-  #spheres {
-    margin: 10px auto;
-    width: 101px;
+#spheres {
+  margin: 10px auto;
+  width: 101px;
 
-    ::first-line {
-      line-height: 39px;
-    }
+  ::first-line {
+    line-height: 39px;
+  }
 
-    li:hover {
-      opacity: 1;
-    }
-
-    #hew-espireth {
-      background-color: $lilacMain;
-      h2 {
-        color: $darkMain;
-      }
-    }
-
-    #godshi-enpire {
-      ::first-line {
-        line-height: 42px;
-      }
-    }
-
-    #peblash-reck {
-      ::first-line {
-        line-height: 48px;
-      }
+  #hew-espireth {
+    background-color: $lilacMain;
+    h2 {
+      color: $darkMain;
     }
   }
 
-  .sphere {
-    border: 2px solid black;
-    border-radius: 40px;
-    display: block;
-    font-family: "Pragati Narrow", sans-serif;
-    height: 76px;
-    list-style-type: none;
-    margin: 8px;
-    opacity: 0.7;
-    padding: 2px;
+  #godshi-enpire {
+    height: 71px;
+    padding-top: 5px;
+  }
+
+  #peblash-reck {
+    height: 71px;
+    padding-top: 5px;
+  }
+}
+
+.sphere {
+  border: 2px solid black;
+  border-radius: 40px;
+  display: block;
+  font-family: "Pragati Narrow", sans-serif;
+  height: 76px;
+  list-style-type: none;
+  margin: 8px;
+  opacity: 0.85;
+  padding: 2px;
+  text-align: center;
+  width: 76px;
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    color: white;
+    font-size: 1rem;
+    margin-top: 0;
     text-align: center;
-    width: 76px;
+  }
+}
 
-    a {
-      text-decoration: none;
-    }
+.sphere:hover {
+  opacity: 1;
+}
 
-    h2 {
-      color: white;
-      font-size: 1rem;
-      margin-top: 0;
-      text-align: center;
+@media screen and (min-width: 920px) {
+  #spheres {
+    height: 101px;
+    width: 900px;
+
+    #godshi-enpire {
+      height: 76px;
+      padding-top: 0;
     }
+  }
+  
+  .sphere {
+    display: inline-block;
+    opacity: 0.7;
   }
 }

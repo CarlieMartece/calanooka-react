@@ -89,29 +89,29 @@ nav a.router-link-exact-active {
   width: 100%;
 }
 
-#Chroma #spheres {
+#spheres {
   margin: 10px auto;
   width: 101px;
 }
-#Chroma #spheres ::first-line {
+#spheres ::first-line {
   line-height: 39px;
 }
-#Chroma #spheres li:hover {
-  opacity: 1;
-}
-#Chroma #spheres #hew-espireth {
+#spheres #hew-espireth {
   background-color: #f8eeff;
 }
-#Chroma #spheres #hew-espireth h2 {
+#spheres #hew-espireth h2 {
   color: #2c3e50;
 }
-#Chroma #spheres #godshi-enpire ::first-line {
-  line-height: 42px;
+#spheres #godshi-enpire {
+  height: 71px;
+  padding-top: 5px;
 }
-#Chroma #spheres #peblash-reck ::first-line {
-  line-height: 48px;
+#spheres #peblash-reck {
+  height: 71px;
+  padding-top: 5px;
 }
-#Chroma .sphere {
+
+.sphere {
   border: 2px solid black;
   border-radius: 40px;
   display: block;
@@ -119,21 +119,39 @@ nav a.router-link-exact-active {
   height: 76px;
   list-style-type: none;
   margin: 8px;
-  opacity: 0.7;
+  opacity: 0.85;
   padding: 2px;
   text-align: center;
   width: 76px;
 }
-#Chroma .sphere a {
+.sphere a {
   text-decoration: none;
 }
-#Chroma .sphere h2 {
+.sphere h2 {
   color: white;
   font-size: 1rem;
   margin-top: 0;
   text-align: center;
 }
 
+.sphere:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 920px) {
+  #spheres {
+    height: 101px;
+    width: 900px;
+  }
+  #spheres #godshi-enpire {
+    height: 76px;
+    padding-top: 0;
+  }
+  .sphere {
+    display: inline-block;
+    opacity: 0.7;
+  }
+}
 #DarkStarVale #dsv-cast {
   display: flex;
   flex: 1 1 0px;
@@ -148,16 +166,25 @@ nav a.router-link-exact-active {
   margin: 10px;
 }
 #DarkStarVale .character a {
-  color: #2c3e50;
   text-decoration: none;
-}
-#DarkStarVale .character a:visited {
-  color: #c22edc;
 }
 #DarkStarVale .character p {
   font-weight: bold;
   margin-bottom: 5px;
   text-align: center;
+}
+
+.picture-info {
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  grid-template-rows: 1fr;
+}
+.picture-info .picture {
+  grid-area: 1/1/2/2;
+}
+.picture-info .info {
+  grid-area: 1/2/2/3;
+  margin-top: 25px;
 }
 
 * {
@@ -179,6 +206,14 @@ nav a.router-link-exact-active {
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   width: 100vw;
+}
+
+a {
+  color: #2c3e50;
+}
+
+a:visited {
+  color: #c22edc;
 }
 
 main {
@@ -211,6 +246,7 @@ main p {
 }
 main .subtitle {
   display: block;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */

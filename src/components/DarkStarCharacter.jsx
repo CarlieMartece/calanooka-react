@@ -14,40 +14,42 @@ export default function DarkStarCharacter() {
   console.log(character);
   return (
     <main>
-      <div className="character">
-        <h1>{character.name}</h1>
-        <figure>
+      <div className="picture-info">
+        <div className="picture">
+          <h1>{character.name}</h1>
+          <figure>
             <img alt={character.name} src={imgSrc} />
             <figcaption>{imgDesc}</figcaption>
-        </figure>
-        <div>
+          </figure>
+        </div>
+        <section className="info">
           <h2>Introduced: </h2>
           <span>DarkStar Vale, Chapter {chapter}</span>
-        </div>
-        <div>
-          <h2>Birth Year: </h2>
-          <span>{character.birthYear}</span>
-        </div>
-        <div>
-          <h2>Present Colour: </h2>
-          <span>{character.presentColour}</span>
-        </div>
-        <div>
-          <h2>Present Pronouns: </h2>
-          <span>{character.pronouns}</span>
-        </div>
-        <div>
-          <h2>Family: </h2>
-          <span>{character.family}</span>
-        </div>
-        <div>
-          <h2>Last Known Address: </h2>
-          <span>{character.address}</span>
-        </div>
-        <div>
-          <h2>Short bio: </h2>
-          <span>{character.bio}</span>
-        </div>
+          <div>
+            <h2>Birth Year: </h2>
+            <span>{character.birthYear}</span>
+          </div>
+          <div>
+            <h2>Present Colour: </h2>
+            <span>{character.presentColour}</span>
+          </div>
+          <div>
+            <h2>Present Pronouns: </h2>
+            <span>{character.pronouns}</span>
+          </div>
+          <div>
+            <h2>Family: </h2>
+            <span>{character.family}</span>
+          </div>
+          <div>
+            <h2>Last Known Address: </h2>
+            <span>{character.address}</span>
+          </div>
+          <div>
+            <h2>Short bio: </h2>
+            <span>{character.bio}</span>
+          </div>
+        </section>
       </div>
     </main>
   );

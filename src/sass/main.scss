@@ -4,6 +4,7 @@
 @use "layout/header";
 @use "pages/chroma";
 @use "pages/darkstar-vale";
+@use "pages/picture-info";
 
 * {
   background: transparent;
@@ -24,6 +25,14 @@
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   width: 100vw;
+}
+
+a {
+  color: $darkMain;
+}
+
+a:visited {
+  color: $violetSphere;
 }
 
 main {
@@ -64,5 +73,6 @@ main {
 
   .subtitle {
     display: block;
+    font-style: italic;
   }
 }
