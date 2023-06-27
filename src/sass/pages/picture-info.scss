@@ -2,13 +2,27 @@
 
 .picture-info {
   display: grid;
-  grid-template-columns: 520px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
 
-    .picture { grid-area: 1 / 1 / 2 / 2; }
+  .picture {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .info {
+    grid-area: 2 / 1 / 3 / 2;
+  }
 
-    .info { 
-        grid-area: 1 / 2 / 2 / 3; 
-        margin-top: 25px;
+  @media screen and (min-width: 720px) {
+    grid-template-columns: 520px 1fr;
+    grid-template-rows: 1fr;
+
+    .picture {
+      grid-area: 1 / 1 / 2 / 2;
     }
+
+    .info {
+      grid-area: 1 / 2 / 2 / 3;
+      margin-top: 25px;
+    }
+  }
 }

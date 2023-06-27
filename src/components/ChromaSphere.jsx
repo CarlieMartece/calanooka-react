@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import data from "../data/chromaSphereSystem.json";
 
-export default function ChromaSphere() {
+export default function ChromaSphere() {  
   const { sphereId } = useParams();
   const sphere = data.chroma.find((object) => object.id === sphereId);
   return (

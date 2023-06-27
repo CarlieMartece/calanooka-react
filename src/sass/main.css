@@ -176,15 +176,27 @@ nav a.router-link-exact-active {
 
 .picture-info {
   display: grid;
-  grid-template-columns: 520px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
 }
 .picture-info .picture {
   grid-area: 1/1/2/2;
 }
 .picture-info .info {
-  grid-area: 1/2/2/3;
-  margin-top: 25px;
+  grid-area: 2/1/3/2;
+}
+@media screen and (min-width: 720px) {
+  .picture-info {
+    grid-template-columns: 520px 1fr;
+    grid-template-rows: 1fr;
+  }
+  .picture-info .picture {
+    grid-area: 1/1/2/2;
+  }
+  .picture-info .info {
+    grid-area: 1/2/2/3;
+    margin-top: 25px;
+  }
 }
 
 * {
